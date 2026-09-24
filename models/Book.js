@@ -21,7 +21,7 @@ const bookSchema = new mongoose.Schema({
 
   inStock: {
     type: Boolean,
-    required: true,
+    default : true,
   },
 });
 
